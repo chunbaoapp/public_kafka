@@ -1,0 +1,9 @@
+version: "3"
+services:
+  my-react:
+    image: my-react
+    restart: always
+    container_name: my-react
+    hostname: localhost
+    ports:
+      - 8000:8000
